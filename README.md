@@ -1,9 +1,4 @@
-<style> 
-h2{color:blue; font-weight: bold;}
-h3{color:green;font-weight: bold;}
-</style>
-
-# Server status <style> color:red; text-decoration: underline;font-weight: bolder; </style> 
+# Server status 
 
 version 1.0
 
