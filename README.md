@@ -1,10 +1,9 @@
 <style> 
-h1{color:red; text-decoration: underline;font-weight: bolder;}
 h2{color:blue; font-weight: bold;}
 h3{color:green;font-weight: bold;}
 </style>
 
-# Server status
+# Server status <style> color:red; text-decoration: underline;font-weight: bolder; </style> 
 
 version 1.0
 
