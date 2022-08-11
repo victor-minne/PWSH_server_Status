@@ -22,7 +22,7 @@ while ($true){
 
     Foreach($server in $servers){
         if ($Queue[0].contains($server) -and $Queue[1].Contains($server) -and $Queue[2].Contains($server)){
-            Send-MailMessage -From 'vminne@gelpass.com' -To 'support@gelpass.com' -Subject ($server + 'is down !') -Body ($server + "is down for more than 3 minutes.") -SmtpServer 'SRV-VMEXCH2013' -Priority High -DeliveryNotificationOption OnFailure
+            Send-MailMessage -From 'victor-minne@domaine.com' -To 'destination@domaine.com' -Subject ($server + 'is down !') -Body ($server + "is down for more than 3 minutes.") -SmtpServer 'server mail' -Priority High -DeliveryNotificationOption OnFailure
          }
     }
 }
